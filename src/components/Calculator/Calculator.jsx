@@ -103,7 +103,7 @@ const Calculator = () => {
   };
 
   return (
-    <main className="flex min-h-screen items-start mt-[171px] justify-center px-4 font-poppins">
+    <main className="flex min-h-screen items-center justify-center px-4 font-poppins">
       <div className="w-full rounded-[24px] rounded-br-[100px] bg-white px-6 pb-12 pt-12 max-w-[840px] md:p-[56px] md:rounded-br-[200px]">
         <form onSubmit={handleSubmit} noValidate>
           <div className="flex gap-4 md:gap-8">
