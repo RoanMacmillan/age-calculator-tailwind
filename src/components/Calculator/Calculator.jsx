@@ -200,7 +200,7 @@ const Calculator = () => {
               className="z-10 flex h-16 w-16 items-center justify-center rounded-full bg-customPurple hover:bg-black md:w-[96px] md:h-[96px]"
               type="submit"
             >
-              <img className="h-6 w-6" src={arrow} alt="Arrow Icon"></img>
+              <img className="h-6 w-6 md:w-[46px] md:h-[46px]" src={arrow} alt="Arrow Icon"></img>
             </button>
           </div>
         </form>
